@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "Claude Code skills by Aliou Barry",
-    "version": "2.0.0"
+    "version": "2.1.0"
   },
   "plugins": [
     {
@@ -56,6 +56,30 @@
         "marketing",
         "saas",
         "video"
+      ]
+    },
+    {
+      "name": "spec-to-tests",
+      "source": {
+        "source": "github",
+        "repo": "barryaliou980/spec-to-tests"
+      },
+      "description": "Turns a list of features into a verified-red test harness: boundary contracts, table-driven tests, and a red check that proves each test fails for the right reason. Writes tests only — never production code.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Aliou Barry"
+      },
+      "homepage": "https://github.com/barryaliou980/spec-to-tests",
+      "license": "MIT",
+      "category": "testing",
+      "keywords": [
+        "tests",
+        "tdd",
+        "boundary-value-analysis",
+        "test-generation",
+        "red-phase",
+        "pytest",
+        "vitest"
       ]
     }
   ]
